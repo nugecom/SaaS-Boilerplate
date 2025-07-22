@@ -32,8 +32,12 @@ CRITICAL: These requirements ensure reliable and professional development practi
 
 ### Initial Setup (July 22, 2025)
 1. Cloned repository (without forking first)
+   - Original repo remains as 'origin' remote: https://github.com/ixartz/SaaS-Boilerplate.git
+   - This gives us ability to pull upstream changes if needed
 2. Created fork at https://github.com/nugecom/SaaS-Boilerplate
 3. Added fork as remote: `git remote add myfork https://github.com/nugecom/SaaS-Boilerplate.git`
+   - Using 'myfork' as remote name to distinguish from original 'origin'
+   - All our changes are pushed to 'myfork'
 4. Configured git identity:
    - Email: john@nugent.co
    - Username: nugecom
