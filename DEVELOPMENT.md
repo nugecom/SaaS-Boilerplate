@@ -1,8 +1,38 @@
 # Development Documentation
 
+## Project Setup History
+
+### Initial Setup (July 22, 2025)
+1. Cloned repository (without forking first)
+2. Created fork at https://github.com/nugecom/SaaS-Boilerplate
+3. Added fork as remote: `git remote add myfork https://github.com/nugecom/SaaS-Boilerplate.git`
+4. Configured git identity:
+   - Email: john@nugent.co
+   - Username: nugecom
+5. Installed VS Code extensions:
+   - ESLint
+   - Dotenv
+   - PostCSS Language Support
+   - Tailwind CSS IntelliSense
+   - Vitest Explorer
+   - REST Client
+   - Pretty TypeScript Errors
+   - Playwright Test for VSCode
+   - GitHub Actions
+   - i18n Ally
+6. Set up GitHub configurations:
+   - Configured Dependabot for critical security updates
+   - Added security testing workflow
+   - Optimized notification settings for non-technical founder workflow
+
+### Current Configuration Files
+- `.github/dependabot.yml` - Security updates configuration
+- `.github/workflows/security-updates.yml` - Automated testing for security updates
+- Other inherited workflows from boilerplate (CI, checkly, crowdin, release)
+
 ## Project Setup Status
 
-### 1. Documentation Access
+### 1. Documentation Access Needed
 - [ ] Next.js App Router documentation
 - [ ] Clerk Authentication
 - [ ] DrizzleORM
@@ -41,7 +71,9 @@
 - [ ] Security policies documentation
 
 ## Development Decisions
-(To be documented as we make architectural and technical decisions)
+1. Local folder as single source of truth
+2. Force push to GitHub when needed (we're not collaborating with others yet)
+3. Focus on startup-appropriate configurations and practices
 
 ## Maintenance Procedures
 - Weekly security updates review
@@ -50,6 +82,12 @@
 
 ## Technical Debt Tracking
 (To be updated as we identify areas needing improvement)
+
+## Project Conventions
+1. All significant changes must be documented in this file
+2. Use clear numbering/lettering conventions in documentation (no duplicate systems)
+3. Always verify GitHub pushes
+4. Document all development decisions and their reasoning
 
 ---
 Last updated: July 22, 2025
