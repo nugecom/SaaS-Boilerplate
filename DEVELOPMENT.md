@@ -57,6 +57,11 @@ CRITICAL: These requirements ensure reliable and professional development practi
    - Added security testing workflow
    - Optimized notification settings for non-technical founder workflow
 
+### VS Code Configuration Updates (July 22, 2025)
+1. Disabled extension recommendations popup
+   - Added `"extensions.ignoreRecommendations": true` to `.vscode/settings.json`
+   - This prevents repeated prompts for already installed extensions
+
 ### Current Configuration Files
 - `.github/dependabot.yml` - Security updates configuration
 - `.github/workflows/security-updates.yml` - Automated testing for security updates
