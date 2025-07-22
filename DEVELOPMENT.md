@@ -1,5 +1,14 @@
 # Development Documentation
 
+## Project Context
+- **Project Type:** MVP Development
+- **Developer Setup:** Solo non-technical founder with AI developer assistance
+- **Development Approach:**
+  * Focus on practical, startup-appropriate solutions
+  * Minimize technical complexity
+  * Clear documentation of decisions and verification steps
+  * Learning-friendly explanations
+
 ## AI Developer Requirements
 CRITICAL: These requirements ensure reliable and professional development practices:
 
