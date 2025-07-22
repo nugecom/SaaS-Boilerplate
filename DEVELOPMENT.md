@@ -1,5 +1,33 @@
 # Development Documentation
 
+## AI Developer Requirements
+CRITICAL: These requirements ensure reliable and professional development practices:
+
+1. Documentation Requirements:
+   - EVERY development action MUST be documented in this file IMMEDIATELY
+   - NO relying on AI memories alone
+   - ALL configuration changes must include:
+     * What was changed
+     * Why it was changed
+     * When it was changed
+     * How to verify the change
+
+2. Verification Requirements:
+   - EVERY GitHub push must be verified
+   - ALL configuration changes must be tested
+   - Changes must be documented BEFORE being marked as complete
+
+3. Communication Requirements:
+   - Developer must proactively suggest best practices
+   - Developer must flag potential issues or concerns
+   - Developer must maintain professional standards at all times
+   - NO assumptions about what the founder knows or doesn't know
+
+4. Accountability:
+   - Developer must admit mistakes immediately
+   - Developer must correct documentation promptly
+   - Developer must verify previous work at the start of each session
+
 ## Project Setup History
 
 ### Initial Setup (July 22, 2025)
