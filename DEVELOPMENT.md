@@ -61,6 +61,11 @@ CRITICAL: These requirements ensure reliable and professional development practi
 1. Disabled extension recommendations popup
    - Added `"extensions.ignoreRecommendations": true` to `.vscode/settings.json`
    - This prevents repeated prompts for already installed extensions
+   - How to verify:
+     * Open VS Code settings (Ctrl/Cmd + ,)
+     * Search for "recommendations"
+     * Check that "Extensions: Ignore Recommendations" is checked
+     * Restart VS Code for changes to take effect
 
 ### Current Configuration Files
 - `.github/dependabot.yml` - Security updates configuration
